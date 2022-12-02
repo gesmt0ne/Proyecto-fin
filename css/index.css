@@ -1,0 +1,71 @@
+#bienvenido{
+    padding: 30px;
+    margin: auto;
+}
+
+#bienvenido div{
+  text-align: center;
+  letter-spacing: 3px;
+  font-family: "Fashion Fetish";
+  width: 90%;
+  margin: auto;
+  border: 10px double #3f2537;
+  padding: 35px;
+}
+
+#bienvenido div h1{
+    text-decoration: underline;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+#bienvenido a{
+    text-decoration: none;
+    color: #3f2537;
+    border: 1px solid #3f2537;
+    padding: 8px;
+    border-radius: 10px;
+    margin-top: 25px;
+    display: block;
+    width: fit-content;
+    margin: auto;
+}
+
+#menu{
+    background-image: url(../img/plateo\ casero\ 2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card-menu{
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 30px;
+}
+
+.card-menu div{
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid white;
+}
+
+.card-menu h2{
+    margin-bottom: 30px;
+}
+
+.card-menu p{
+    max-width: 50ch;
+    margin: auto;
+}
+
+.card-menu a{
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 8px;
+    display: block;
+    width: fit-content;
+    margin: auto;
+    margin-top: 20px;
+}

@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Fashion Fetish';
+    src: url('../fuentes/FashionFetish.woff2') format('woff2'),
+        url('../fuentes/FashionFetish.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

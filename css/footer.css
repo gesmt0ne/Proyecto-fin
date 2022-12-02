@@ -1,0 +1,21 @@
+footer{
+  background-color: #78f4b5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+}
+
+footer img{
+  width: 30px;
+  height: auto;
+}
+
+footer p{
+  font-family: "Fashion Fetish";
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
