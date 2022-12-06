@@ -69,6 +69,8 @@ header nav ul{
     padding: 0px;
 }
 
+
+
 /*Footer*/
 
 footer{
@@ -77,8 +79,8 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 10px;
-    gap: 10px;
+    padding: 8px;
+    
   }
   
   footer img{
@@ -87,9 +89,12 @@ footer{
   }
   
   footer p{
+    font-size: 12px;
     font-family: "Fashion Fetish";
     font-weight: bold;
     text-transform: uppercase;
+    max-width: 100%;
+    margin: 0px;
   }
 
 
@@ -309,3 +314,34 @@ main.somos{
       background-position: center;
   }
   
+
+  /*Eventos*/
+
+main.eventos{
+    flex-grow: 1;
+    background-image: url("../img/boda.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+}
+
+main.eventos div{
+    text-align: center;
+    color: white;
+    height: 100%;
+    padding: 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(0,0,0,0.75);
+}
+
+
+
+main.eventos div p{
+    max-width: 45ch;
+}
