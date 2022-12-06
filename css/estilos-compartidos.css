@@ -69,7 +69,53 @@ header nav ul{
     padding: 0px;
 }
 
+.responsive{
+    display: none;
+}
 
+#toggle{
+    display: none;
+}
+
+label[for="toggle"]{
+    display: none;
+}
+
+@media (max-width:768px){
+    .main-nav {
+        display: none;   
+    }
+
+    label[for="toggle"]{
+        display: block;
+        position: absolute;
+        top:0px;
+        right: 0px;
+        margin: 8px;
+    }
+
+    #toggle{
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        margin: 8px;
+    }
+
+    .responsive{
+        display: none;
+    }
+
+    #toggle:checked ~ .responsive{
+        display: block;
+    }
+
+    #toggle:checked ~ .responsive ul{
+        display: flex;
+        flex-direction: column;
+        gap:5px;
+    }
+
+}
 
 /*Footer*/
 
@@ -339,8 +385,6 @@ main.eventos div{
 
     background-color: rgba(0,0,0,0.75);
 }
-
-
 
 main.eventos div p{
     max-width: 45ch;
