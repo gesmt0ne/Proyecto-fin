@@ -300,6 +300,7 @@ form{
     gap: 30px;
     padding: 20px;
     color: white;
+    margin: 8px;
     background-color: rgba(0, 0, 0, 0.8);
 }   
 
